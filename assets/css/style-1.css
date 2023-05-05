@@ -133,7 +133,7 @@ section .tanjiro .tanjiro-image iframe {
 
 section article .tanjiro p {
   width: 500px;
-  text-align: left;
+  text-align: justify;
   position: relative;
   left: 220px;
   bottom: 260px;
@@ -325,7 +325,7 @@ section article .inosuke {
 section article .inosuke .inosuke-text h1 {
   font-size: 55px;
   position: relative;
-  bottom: 90px;
+  bottom: 25px;
   color: var(--white);
   margin-left: 5vh;
 }
@@ -340,7 +340,7 @@ section article .inosuke .inosuke-text span {
 section article .inosuke .inosuke-text i {
   font-size: 25px;
   position: relative;
-  bottom: 90px;
+  bottom: 25px;
   color: var(--white);
   margin-left: 50px;
   font-weight: bold;
@@ -355,6 +355,8 @@ section article .inosuke .inosuke-text h1 strong {
 section article .inosuke .inosuke-text p {
   width: 650px;
   text-align: justify;
+  position: relative;
+  top: 5vh;
   margin-left: 5vh;
   line-height: 22px;
   font-weight: bold;
@@ -374,7 +376,7 @@ section article .inosuke .inosuke-btn {
   background: var(--landingPage1);
   position: relative;
   right: 76vh;
-  top: 15vh;
+  top: 23vh;
   width: 150px;
   padding: 10px 50px;
   border-radius: 10px;
