@@ -1,5 +1,481 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap'); /* Josefin Sans */
 
+*,
 html {
   font-family: 'Josefin Sans';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background: var(--landingPage4);
+}
+
+:root {
+  --landingPage1: #3b120e;
+  --landingPage2: #eb1d21; /*Blood*/
+  --landingPage3: #0f0501;
+  --landingPage4: #190403; /*Dark Coklat*/
+  --white: #ffffff;
+}
+
+nav {
+  padding-left: 10%;
+  padding-right: 10%;
+  background: var(--landingPage1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(155, 2, 2, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+nav .logo a {
+  display: flex;
+  font-size: 20px;
+}
+
+nav .logo a p {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 35px;
+}
+
+nav ul li a::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: var(--landingPage2);
+  display: block;
+  transition: 0.2s linear;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+nav ul li a:hover {
+  color: var(--landingPage2);
+}
+
+/* ------------ Section Area ------------- */
+section article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  background: var(--landingPage4);
+}
+
+section article .tanjiro {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(126, 126, 126, 0), rgb(0, 0, 0)), url(/assets/img/bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: space-around;
+  padding-top: 130px;
+}
+
+section article .tanjiro .title-tanjiro h1 {
+  font-size: 45px;
+  position: relative;
+  top: 80px;
+  padding-left: 220px;
+  color: var(--white);
+}
+
+section article .tanjiro .title-tanjiro i {
+  font-size: 20px;
+  position: relative;
+  top: 80px;
+  padding-left: 175px;
+  color: var(--white);
+  font-weight: bold;
+  letter-spacing: 20px;
+}
+
+section article .tanjiro .title-tanjiro h1 span {
+  margin-left: 15px;
+  color: var(--landingPage2);
+  font-family: mv boli;
+  line-height: 22px;
+  font-size: 45px;
+}
+
+section .tanjiro .tanjiro-image iframe {
+  width: 700px;
+  height: 390px;
+  position: relative;
+  left: 105vh;
+}
+
+section article .tanjiro p {
+  width: 500px;
+  text-align: left;
+  position: relative;
+  left: 220px;
+  bottom: 260px;
+  line-height: 22px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* ------------------- Nezuko Area ------------------- */
+
+section article .nezuko {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(70, 0, 0, 0.486)), url(/assets/img/bg-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section article .nezuko .nezuko-text h1,
+i {
+  font-size: 55px;
+  position: relative;
+  bottom: 90px;
+  color: var(--white);
+  margin-left: 50px;
+}
+
+section article .nezuko .nezuko-text i {
+  font-size: 25px;
+  position: relative;
+  bottom: 90px;
+  color: var(--white);
+  margin-left: 50px;
+  font-weight: bold;
+  letter-spacing: 20px;
+}
+
+section article .nezuko .nezuko-text h1 strong {
+  color: var(--landingPage2);
+  font-style: italic;
+}
+
+section article .nezuko .nezuko-text p {
+  width: 650px;
+  text-align: justify;
+  margin-left: 50px;
+  line-height: 22px;
+  font-weight: bold;
+  color: var(--white);
+  font-size: 25px;
+}
+
+section article .nezuko .nezuko-img iframe {
+  width: 800px;
+  height: 450px;
+  position: relative;
+  top: 60px;
+  margin-left: 150px;
+}
+
+section article .nezuko .nezuko-btn {
+  background: var(--landingPage1);
+  position: relative;
+  right: 71vh;
+  top: 15vh;
+  width: 150px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+section article .nezuko .nezuko-btn a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+section article .nezuko .nezuko-btn {
+  box-shadow: 0 0 10px var(--landingPage2);
+}
+
+section article .nezuko .nezuko-btn:hover {
+  background: var(--landingPage2);
+}
+
+/* ---------- Zenitsu Area -------------- */
+section article .zenitsu {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(70, 0, 0, 0.486)), url(/assets/img/bg-2.png);
+  background-size: cover;
+  background-position: center;
+  justify-content: space-around;
+  padding-top: 130px;
+}
+
+section article .zenitsu .title-zenitsu h1 {
+  font-size: 45px;
+  position: relative;
+  top: 80px;
+  padding-left: 220px;
+  color: var(--white);
+}
+
+section article .zenitsu .title-zenitsu h1 span {
+  margin-left: 15px;
+  color: #f9ff5e;
+  font-family: mv boli;
+  line-height: 22px;
+  font-size: 45px;
+}
+
+section article .zenitsu .title-zenitsu i {
+  font-size: 25px;
+  position: relative;
+  top: 80px;
+  padding-left: 170px;
+  color: var(--white);
+  font-weight: bold;
+  letter-spacing: 30px;
+}
+
+section article .zenitsu .title-zenitsu h1 u {
+  color: #ffa237;
+}
+
+section .zenitsu .zenitsu-image iframe {
+  width: 620px;
+  height: 390px;
+  position: relative;
+  left: 105vh;
+}
+
+section article .zenitsu p {
+  width: 500px;
+  text-align: justify;
+  position: relative;
+  left: 220px;
+  bottom: 260px;
+  line-height: 22px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+section article .zenitsu .zenitsu-btn {
+  background: var(--landingPage1);
+  position: relative;
+  left: 23vh;
+  bottom: 22vh;
+  width: 150px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+section article .zenitsu .zenitsu-btn a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+section article .zenitsu .zenitsu-btn {
+  box-shadow: 0 0 10px var(--landingPage2);
+}
+
+section article .zenitsu .zenitsu-btn:hover {
+  background: var(--landingPage2);
+}
+
+/* ------------ Inosuke Area ------------- */
+section article .inosuke {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(70, 0, 0, 0.486)), url(/assets/img/bg-4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+section article .inosuke .inosuke-text h1 {
+  font-size: 55px;
+  position: relative;
+  bottom: 90px;
+  color: var(--white);
+  margin-left: 5vh;
+}
+
+section article .inosuke .inosuke-text span {
+  color: var(--landingPage2);
+  font-family: mv boli;
+  line-height: 22px;
+  font-size: 45px;
+}
+
+section article .inosuke .inosuke-text i {
+  font-size: 25px;
+  position: relative;
+  bottom: 90px;
+  color: var(--white);
+  margin-left: 50px;
+  font-weight: bold;
+  letter-spacing: 20px;
+}
+
+section article .inosuke .inosuke-text h1 strong {
+  color: var(--landingPage2);
+  font-style: italic;
+}
+
+section article .inosuke .inosuke-text p {
+  width: 650px;
+  text-align: justify;
+  margin-left: 5vh;
+  line-height: 22px;
+  font-weight: bold;
+  color: var(--white);
+  font-size: 25px;
+}
+
+section article .inosuke .inosuke-img iframe {
+  width: 650px;
+  height: 370px;
+  position: relative;
+  top: 60px;
+  margin-left: 150px;
+}
+
+section article .inosuke .inosuke-btn {
+  background: var(--landingPage1);
+  position: relative;
+  right: 76vh;
+  top: 15vh;
+  width: 150px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+section article .inosuke .inosuke-btn a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+section article .inosuke .inosuke-btn {
+  box-shadow: 0 0 10px var(--landingPage2);
+}
+
+section article .inosuke .inosuke-btn:hover {
+  background: var(--landingPage2);
+}
+
+/* ------------------ Kanao Area ------------------ */
+section article .kanao {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(70, 0, 0, 0.486)), url(/assets/img/bg-5.png);
+  background-size: cover;
+  background-position: center;
+  justify-content: space-around;
+  padding-top: 130px;
+}
+
+section article .kanao .title-kanao h1 {
+  font-size: 45px;
+  position: relative;
+  top: 80px;
+  padding-left: 220px;
+  color: var(--white);
+}
+
+section article .kanao .title-kanao h1 span {
+  margin-left: 15px;
+  color: rgb(207, 0, 114);
+  font-family: mv boli;
+  line-height: 22px;
+  font-size: 45px;
+}
+
+section article .kanao .title-kanao i {
+  font-size: 25px;
+  position: relative;
+  top: 80px;
+  padding-left: 170px;
+  color: var(--white);
+  font-weight: bold;
+  letter-spacing: 25px;
+}
+
+section article .kanao .title-kanao h1 u {
+  color: rgb(17, 202, 0);
+}
+
+section .kanao .kanao-image .tenor-gif-embed {
+  width: 620px;
+  height: 390px;
+  position: relative;
+  left: 105vh;
+}
+
+section article .kanao p {
+  width: 500px;
+  text-align: justify;
+  position: relative;
+  left: 220px;
+  bottom: 260px;
+  line-height: 22px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+section article .kanao .kanao-btn {
+  background: var(--landingPage1);
+  position: relative;
+  left: 23vh;
+  bottom: 22vh;
+  width: 150px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+section article .kanao .kanao-btn a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+section article .kanao .kanao-btn {
+  box-shadow: 0 0 10px var(--landingPage2);
+}
+
+section article .kanao .kanao-btn:hover {
+  background: var(--landingPage2);
 }
