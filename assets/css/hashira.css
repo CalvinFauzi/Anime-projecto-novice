@@ -77,3 +77,115 @@ nav .navbar ul li a:hover::after {
 nav .navbar ul li a:hover {
   color: var(--landingPage2);
 }
+
+/* ------------------- Gallery Hashira Area ----------------- */
+article .gallery-hashira {
+  width: 100%;
+  padding: 70px 0px;
+  height: 100vh;
+}
+
+article .gallery-hashira h1 {
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article .gallery-hashira h1 strong {
+  margin-left: 15px;
+  color: var(--landingPage2);
+  font-weight: bolder;
+}
+
+article .gallery-hashira .gallery-img-box {
+  width: 100%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 0 10%;
+}
+
+article .gallery-hashira .gallery-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article .gallery-hashira .gallery-frame img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+
+article .gallery-hashira .gallery-frame:hover img {
+  opacity: 0.4;
+}
+
+article .gallery-hashira .gallery-frame h3 {
+  position: absolute;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 130px;
+  color: var(--landingPage2);
+  z-index: 5;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+article .gallery-hashira .gallery-frame:hover h3 {
+  opacity: 1;
+}
+
+article .gallery-hashira .gallery-frame i {
+  position: absolute;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 50px;
+  color: var(--landingPage2);
+  z-index: 5;
+  opacity: 0;
+  transition: 0.3s;
+  font-weight: bolder;
+}
+
+article .gallery-hashira .gallery-frame:hover i {
+  opacity: 1;
+}
+
+article .gallery-hashira .gallery-frame .btn-hashira a {
+  text-decoration: none;
+  color: var(--landingPage2);
+  font-size: 25px;
+  font-weight: 600px;
+}
+
+article .gallery-hashira .gallery-frame .btn-hashira a:hover {
+  text-decoration: none;
+  font-weight: bolder;
+  color: var(--white);
+}
+
+article .gallery-hashira .gallery-frame .btn-hashira {
+  position: absolute;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 100px;
+  padding: 5px 50px;
+  border-radius: 7px;
+  background: var(--landingPage1);
+  box-shadow: 0 0 10px var(--landingPage2);
+  z-index: 5;
+  opacity: 0;
+  transition: 0.3s;
+  font-weight: bolder;
+}
+
+article .gallery-hashira .gallery-frame .btn-hashira:hover {
+  background: var(--landingPage2);
+}
+
+article .gallery-hashira .gallery-frame:hover .btn-hashira {
+  opacity: 1;
+}
