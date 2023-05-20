@@ -82,7 +82,8 @@ nav .navbar ul li a:hover {
 article .gallery-hashira {
   width: 100%;
   padding: 70px 0px;
-  height: 100vh;
+  height: 150vh;
+  background: var(--landingPage1);
 }
 
 article .gallery-hashira h1 {
@@ -90,6 +91,7 @@ article .gallery-hashira h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--white);
 }
 
 article .gallery-hashira h1 strong {
@@ -188,4 +190,75 @@ article .gallery-hashira .gallery-frame .btn-hashira:hover {
 
 article .gallery-hashira .gallery-frame:hover .btn-hashira {
   opacity: 1;
+}
+
+/* --------------------------- Gyomei Himejima Area -------------------- */
+article .gyomei-area {
+  width: 100%;
+  height: 100vh;
+  background: var(--landingPage1);
+  justify-content: space-around;
+  padding-top: 130px;
+}
+
+article .gyomei-area .title-gyomei h1 {
+  font-size: 45px;
+  position: relative;
+  top: 80px;
+  padding-left: 220px;
+  color: var(--white);
+}
+
+article .gyomei-area .title-gyomei i {
+  font-size: 25px;
+  position: relative;
+  top: 80px;
+  padding-left: 220px;
+  color: var(--white);
+  font-weight: bold;
+  letter-spacing: 30px;
+}
+
+article .gyomei-area .gyomei-img img {
+  width: 25%;
+  height: 5%;
+  position: relative;
+  left: 105vh;
+}
+
+article .gyomei-area p {
+  width: 500px;
+  text-align: justify;
+  position: relative;
+  left: 220px;
+  bottom: 50vh;
+  line-height: 22px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+article .gyomei-area .gyomei-btn {
+  background: var(--landingPage1);
+  position: relative;
+  left: 23vh;
+  bottom: 45vh;
+  width: 150px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+article .gyomei-area .gyomei-btn a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+article .gyomei-area .gyomei-btn {
+  box-shadow: 0 0 10px var(--landingPage2);
+}
+
+article .gyomei-area .gyomei-btn:hover {
+  background: var(--landingPage2);
 }
