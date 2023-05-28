@@ -334,3 +334,503 @@ article .sanemi-area .sanemi-btn {
 article .sanemi-area .sanemi-btn:hover {
   background: var(--landingPage2);
 }
+
+/* ----------- Obanai Area --------------- */
+article .obanai-area {
+  width: 100%;
+  height: 100vh;
+  background: var(--landingPage1);
+  justify-content: space-around;
+  padding-top: 130px;
+}
+
+article .obanai-area .title-obanai h1 {
+  font-size: 45px;
+  position: relative;
+  top: 15vh;
+  padding-left: 220px;
+  color: var(--landingPage2);
+}
+
+article .obanai-area .title-obanai i {
+  font-size: 25px;
+  position: relative;
+  top: 16vh;
+  padding-left: 220px;
+  color: var(--white);
+  font-weight: bold;
+  letter-spacing: 30px;
+}
+
+article .obanai-area .obanai-img img {
+  width: 25%;
+  height: 5%;
+  position: relative;
+  left: 105vh;
+}
+
+article .obanai-area p {
+  width: 500px;
+  text-align: justify;
+  position: relative;
+  left: 220px;
+  bottom: 50vh;
+  line-height: 22px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+article .obanai-area .obanai-btn {
+  background: var(--landingPage1);
+  position: relative;
+  left: 23vh;
+  bottom: 45vh;
+  width: 150px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+article .obanai-area .obanai-btn a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+article .obanai-area .obanai-btn {
+  box-shadow: 0 0 10px var(--landingPage2);
+}
+
+article .obanai-area .obanai-btn:hover {
+  background: var(--landingPage2);
+}
+
+/* --------------------- Mitsuri Area --------------- */
+article .mitsuri-area {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--landingPage1);
+}
+
+article .mitsuri-area .mitsuri-text h1 {
+  font-size: 55px;
+  position: relative;
+  bottom: 25px;
+  color: var(--white);
+  margin-right: 20vh;
+}
+
+article .mitsuri-area .mitsuri-text i {
+  font-size: 30px;
+  position: relative;
+  bottom: 25px;
+  color: var(--white);
+  margin-right: 20vh;
+}
+
+article .mitsuri-area .mitsuri-text p {
+  width: 650px;
+  text-align: justify;
+  position: relative;
+  top: 5vh;
+  margin-right: 20vh;
+  line-height: 22px;
+  font-weight: bold;
+  color: var(--white);
+  font-size: 25px;
+}
+
+article .mitsuri-area .mitsuri-img img {
+  width: 55%;
+  height: 15%;
+  position: relative;
+  top: 60px;
+  margin-left: 150px;
+}
+
+article .mitsuri-area .mitsuri-btn {
+  background: var(--landingPage1);
+  position: relative;
+  right: 87vh;
+  top: 23vh;
+  width: 150px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+article .mitsuri-area .mitsuri-btn a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+article .mitsuri-area .mitsuri-btn {
+  box-shadow: 0 0 10px var(--landingPage2);
+}
+
+article .mitsuri-area .mitsuri-btn:hover {
+  background: var(--landingPage2);
+}
+
+/* --------------------- Rengoku Area -------------------------- */
+article .rengoku-area {
+  width: 100%;
+  height: 100vh;
+  background: var(--landingPage1);
+  justify-content: space-around;
+  padding-top: 130px;
+}
+
+article .rengoku-area .title-rengoku h1 {
+  font-size: 45px;
+  position: relative;
+  top: 15vh;
+  padding-left: 220px;
+  color: var(--landingPage2);
+}
+
+article .rengoku-area .title-rengoku i {
+  font-size: 25px;
+  position: relative;
+  top: 16vh;
+  padding-left: 220px;
+  color: var(--white);
+  font-weight: bold;
+  letter-spacing: 30px;
+}
+
+article .rengoku-area .rengoku-img img {
+  width: 25%;
+  height: 5%;
+  position: relative;
+  left: 105vh;
+}
+
+article .rengoku-area p {
+  width: 500px;
+  text-align: justify;
+  position: relative;
+  left: 220px;
+  bottom: 50vh;
+  line-height: 22px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+article .rengoku-area .rengoku-btn {
+  background: var(--landingPage1);
+  position: relative;
+  left: 23vh;
+  bottom: 45vh;
+  width: 150px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+article .rengoku-area .rengoku-btn a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+article .rengoku-area .rengoku-btn {
+  box-shadow: 0 0 10px var(--landingPage2);
+}
+
+article .rengoku-area .rengoku-btn:hover {
+  background: var(--landingPage2);
+}
+
+/* --------------------- Tokito Area --------------- */
+article .tokito-area {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--landingPage1);
+}
+
+article .tokito-area .tokito-text h1 {
+  font-size: 55px;
+  position: relative;
+  bottom: 25px;
+  color: var(--white);
+  margin-right: 20vh;
+}
+
+article .tokito-area .tokito-text i {
+  font-size: 30px;
+  position: relative;
+  bottom: 25px;
+  color: var(--white);
+  margin-right: 20vh;
+}
+
+article .tokito-area .tokito-text p {
+  width: 650px;
+  text-align: justify;
+  position: relative;
+  top: 5vh;
+  margin-right: 20vh;
+  line-height: 22px;
+  font-weight: bold;
+  color: var(--white);
+  font-size: 25px;
+}
+
+article .tokito-area .tokito-img img {
+  width: 55%;
+  height: 15%;
+  position: relative;
+  top: 60px;
+  margin-left: 150px;
+}
+
+article .tokito-area .tokito-btn {
+  background: var(--landingPage1);
+  position: relative;
+  right: 87vh;
+  top: 23vh;
+  width: 150px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+article .tokito-area .tokito-btn a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+article .tokito-area .tokito-btn {
+  box-shadow: 0 0 10px var(--landingPage2);
+}
+
+article .tokito-area .tokito-btn:hover {
+  background: var(--landingPage2);
+}
+
+/* --------------------- Shinobu Area -------------------------- */
+article .kocho-area {
+  width: 100%;
+  height: 100vh;
+  background: var(--landingPage1);
+  justify-content: space-around;
+  padding-top: 130px;
+}
+
+article .kocho-area .title-kocho h1 {
+  font-size: 45px;
+  position: relative;
+  top: 15vh;
+  padding-left: 220px;
+  color: var(--landingPage2);
+}
+
+article .kocho-area .title-kocho i {
+  font-size: 25px;
+  position: relative;
+  top: 16vh;
+  padding-left: 220px;
+  color: var(--white);
+  font-weight: bold;
+  letter-spacing: 30px;
+}
+
+article .kocho-area .kocho-img img {
+  width: 25%;
+  height: 5%;
+  position: relative;
+  left: 105vh;
+}
+
+article .kocho-area p {
+  width: 500px;
+  text-align: justify;
+  position: relative;
+  left: 220px;
+  bottom: 50vh;
+  line-height: 22px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+article .kocho-area .kocho-btn {
+  background: var(--landingPage1);
+  position: relative;
+  left: 23vh;
+  bottom: 45vh;
+  width: 150px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+article .kocho-area .kocho-btn a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+article .kocho-area .kocho-btn {
+  box-shadow: 0 0 10px var(--landingPage2);
+}
+
+article .kocho-area .kocho-btn:hover {
+  background: var(--landingPage2);
+}
+
+/* --------------------- Uzui Area --------------- */
+article .uzui-area {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--landingPage1);
+}
+
+article .uzui-area .uzui-text h1 {
+  font-size: 55px;
+  position: relative;
+  bottom: 25px;
+  color: var(--white);
+  margin-right: 20vh;
+}
+
+article .uzui-area .uzui-text i {
+  font-size: 30px;
+  position: relative;
+  bottom: 25px;
+  color: var(--white);
+  margin-right: 20vh;
+}
+
+article .uzui-area .uzui-text p {
+  width: 650px;
+  text-align: justify;
+  position: relative;
+  top: 5vh;
+  margin-right: 20vh;
+  line-height: 22px;
+  font-weight: bold;
+  color: var(--white);
+  font-size: 25px;
+}
+
+article .uzui-area .uzui-img img {
+  width: 55%;
+  height: 15%;
+  position: relative;
+  top: 60px;
+  margin-left: 150px;
+}
+
+article .uzui-area .uzui-btn {
+  background: var(--landingPage1);
+  position: relative;
+  right: 87vh;
+  top: 23vh;
+  width: 150px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+article .uzui-area .uzui-btn a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+article .uzui-area .uzui-btn {
+  box-shadow: 0 0 10px var(--landingPage2);
+}
+
+article .uzui-area .uzui-btn:hover {
+  background: var(--landingPage2);
+}
+
+/* --------------------- Giyu Area -------------------------- */
+article .giyu-area {
+  width: 100%;
+  height: 100vh;
+  background: var(--landingPage1);
+  justify-content: space-around;
+  padding-top: 130px;
+}
+
+article .giyu-area .title-giyu h1 {
+  font-size: 45px;
+  position: relative;
+  top: 15vh;
+  padding-left: 220px;
+  color: var(--landingPage2);
+}
+
+article .giyu-area .title-giyu i {
+  font-size: 25px;
+  position: relative;
+  top: 16vh;
+  padding-left: 220px;
+  color: var(--white);
+  font-weight: bold;
+  letter-spacing: 30px;
+}
+
+article .giyu-area .giyu-img img {
+  width: 25%;
+  height: 5%;
+  position: relative;
+  left: 105vh;
+}
+
+article .giyu-area p {
+  width: 500px;
+  text-align: justify;
+  position: relative;
+  left: 220px;
+  bottom: 50vh;
+  line-height: 22px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+article .giyu-area .giyu-btn {
+  background: var(--landingPage1);
+  position: relative;
+  left: 23vh;
+  bottom: 45vh;
+  width: 150px;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+
+article .giyu-area .giyu-btn a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+article .giyu-area .giyu-btn {
+  box-shadow: 0 0 10px var(--landingPage2);
+}
+
+article .giyu-area .giyu-btn:hover {
+  background: var(--landingPage2);
+}
