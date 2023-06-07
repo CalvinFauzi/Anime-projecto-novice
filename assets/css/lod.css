@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap'); /* Josefin Sans */
+
+*,
+html {
+  font-family: 'Josefin Sans';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --landingPage1: #3b120e;
+  --landingPage2: #eb1d21; /*Blood*/
+  --landingPage3: #0f0501;
+  --landingPage4: #190403; /*Dark Coklat*/
+  --white: #ffffff;
+}
+/* ----------------- Navbar Area ---------------- */
+nav {
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--landingPage1);
+  box-shadow: 0 0 10px var(--rgbaBlack);
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 62px;
+}
+
+nav .navbar a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+nav .navbar .logo a {
+  font-size: 25px;
+  display: flex;
+  margin-left: 10px;
+}
+
+nav .navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 35px;
+}
+
+nav .navbar ul li a::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: var(--landingPage2);
+  display: block;
+  transition: 0.2s linear;
+}
+
+nav .navbar ul li a:hover::after {
+  width: 100%;
+}
+
+nav .navbar ul li a:hover {
+  color: var(--landingPage2);
+}
+
+/* ------------------- Page Area --------------------------- */
+section {
+  width: 100%;
+  height: 100vh;
+  background: var(--landingPage1);
+}
+
+section .title-lod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  color: var(--white);
+}
+
+section .box-sharp {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 13%;
+}
+
+section .box-sharp article {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  transition: 0.4s;
+}
